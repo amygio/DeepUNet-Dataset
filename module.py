@@ -20,7 +20,7 @@ class Dataset:
             shape = image.shape
             height = shape[0]
             width = shape[1]
-            #Seleziono in maniera random dei punti in un certo range calcolato in maniera tale che si possa fare il crop senza rischiare di uscire dall'immagine 
+            #Seleziono in maniera random dei punti in un certo range calcolato in modo tale che si possa fare il crop senza rischiare di uscire dall'immagine 
             for i in range (0,3):
                 x = random.randrange(0, width - 256)
                 y = random.randrange(0, height - 256)
