@@ -1,4 +1,5 @@
 # Dataset
 
 Usage
-run main.py: python main.py
+- organize data hierarchy
+- run main.py
