@@ -81,7 +81,7 @@ class Dataset:
 
 
 #NUMERO TOTALE DI IMMAGINI/ETICHETTE GENERATE = (NUMERO TOTALE DI IMMAGINI/ETICHETTE FILTRATE) x (NUMERO ROTAZIONI + IMMAGINE/ETICHETTA FILTRATA)
-#Supponendo che il numero di immagini filtrate sia pari a 2 otteniamo = 2x(3+1) = 8 immagini adatte per essere utilizzate.
+#Supponendo che il numero di immagini/etichette filtrate sia pari a 2 otteniamo = 2x(3+1) = 8 immagini adatte per essere utilizzate.
 #Aumentando opportunamente le iterazioni del for presente nel metodo "crop()" si ottiene un numero significativo di immagini.
             
 
