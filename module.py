@@ -50,7 +50,7 @@ class Dataset:
                         count += 1
             #calcolo la percentuale di pixel di mare
             perc=(count/(rows*cols))*100
-            #se questa percentuale è compresa tra 15% e 60% allora ritengo l'immagine valida altrimenti significa che c'è poco mare o poca terra
+            #se questa percentuale è compresa tra 15% e 70% allora ritengo l'immagine valida altrimenti significa che c'è poco mare o poca terra
             if(perc>=15 and perc<=70):
                 cv2.imwrite(os.path.join(self.path + "/filtered_img",file_name), image)
                 cv2.imwrite(os.path.join(self.path + "/filtered_label",file_name), label)
